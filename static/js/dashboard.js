@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>document.querySelectorAll(".bar-chart").forEach(chart=>chart.querySelectorAll("i").forEach(bar=>{if(!bar.style.getPropertyValue("--w"))bar.style.setProperty("--w","0%")})));
